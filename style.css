@@ -140,6 +140,7 @@ a{
     background-color: var(--container-color);
     top: 0;
     left: 0;
+    z-index: 100;
     /* z-index: var(--z-fixed); */
 }
 .nav{
