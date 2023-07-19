@@ -494,7 +494,7 @@ a{
 /* footer */
 .footer{
     background-color: var(--container-color);
-    padding-block: 2rem 2rem;
+    padding-block: 3.5rem 2rem;
 }
 
 .footer--container{
@@ -505,7 +505,7 @@ a{
 .footer--title{
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: .25rem;
+    margin-bottom: 1.25rem;
 }
 
 .footer--title span{
