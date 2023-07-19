@@ -135,13 +135,21 @@ a{
 }
  /* header and nav */
 .header{
-    position: fixed;
+/*     position: fixed;
     width: 100%;
     background-color: var(--container-color);
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100; */
     /* z-index: var(--z-fixed); */
+    position: fixed;
+    top: 0; right:0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 100;
 }
 .nav{
     height: var(--header-height);
